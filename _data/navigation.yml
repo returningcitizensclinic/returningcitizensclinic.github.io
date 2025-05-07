@@ -1,14 +1,7 @@
-# main links
 main:
   - title: "Home"
     url: /
-  - title: "New Page"
-    url: /new-page/
-  # - title: "About"
-  #   url: https://returningcitizensclinic.github.io/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /blog/
