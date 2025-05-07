@@ -37,3 +37,10 @@ defaults:
     values:
       layout: single
       author_profile: false
+author:
+  name: "Returning Citizens Clinic"
+  avatar: null  # Or path to avatar image if you want one
+  bio: ""        # Delete or write a new short bio
+  location: ""   # Delete or replace
+title: "Returning Citizens Clinic"
+logo: null  # Or path to logo image if you want to show a logo
