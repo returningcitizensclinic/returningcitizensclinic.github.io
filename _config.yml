@@ -1,4 +1,39 @@
-# _config.yml
+title: "Returning Citizens Clinic"
+email: "your-email@example.com"
+description: >- # Appears in search results
+  A student-run clinic supporting returning citizens in Detroit.
+baseurl: "" # leave blank if deploying to root
+url: "https://yourdomain.github.io" # update this with your actual URL
+
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Author sidebar info
+author:
+  name   : "Returning Citizens Clinic"
+  avatar : "" # Add a path to your image if you want one
+  bio    : "Supporting justice-involved individuals."
+  location: "Detroit, MI"
+
+# Navigation links
 navigation:
   enabled: true
   name: main
+
+# Include _pages folder
+include:
+  - _pages
+
+# Output options
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
